@@ -65,6 +65,7 @@ const DarkGreenTextField = styled(TextField)(({ theme }) => ({
 
 const DarkGreenAppBar = styled(AppBar)(({ theme }) => ({
   backgroundColor: '#009688', // Dark green background color for the navbar
+  position: 'fixed',
 }));
 
 const DarkGreenToolbar = styled(Toolbar)(({ theme }) => ({
